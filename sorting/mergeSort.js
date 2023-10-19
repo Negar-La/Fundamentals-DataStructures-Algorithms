@@ -20,10 +20,11 @@ const mergeSort = (dataset) => {
 };
 
 const merge = (left, right) => {
-  let i = 0;
-  let j = 0;
+  let i = 0; //index into the left array
+  let j = 0; //index into the right array
   let merged = [];
 
+  //while both arrays have elements
   while (i < left.length && j < right.length) {
     if (left[i] < right[j]) {
       merged.push(left[i]);
