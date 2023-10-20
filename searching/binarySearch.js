@@ -14,13 +14,13 @@ function binarySearch(itemToFind, list) {
     if (list[midpoint] === itemToFind) {
       return `Item ${itemToFind} found at position ${midpoint}`; // Item found, return its index
     } else if (list[midpoint] < itemToFind) {
-      lower = midpoint + 1; // Adjust lower index
+      lower = midpoint + 1; // Adjust lower index to midpoint + 1
     } else {
       upper = midpoint - 1; // Adjust upper index
     }
   }
 
-  return `Item ${itemToFind} not found`; // Item not found
+  return `Item ${itemToFind} not found`; // Item not found - two indexes have crossed each other
 }
 
 // Test the binarySearch function
