@@ -23,5 +23,5 @@ for (const item of items) {
   }
 }
 
-console.log(counter);
-//Linear time complexity Big O(n)
+console.log(counter); //  { apple: 4, banana: 2, cherry: 3, date: 1 }
+//Linear time complexity O(n)

@@ -29,4 +29,4 @@ const uniqueItemsArray = Array.from(result);
 console.log(result);
 console.log(uniqueItemsArray);
 
-//Linear time complexity Big O(n)
+//Linear time complexity O(n)
