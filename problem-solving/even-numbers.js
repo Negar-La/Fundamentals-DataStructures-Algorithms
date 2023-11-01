@@ -32,7 +32,7 @@ console.log(func(c));
 console.log(func(d));
 console.log(func(e));
 
-// Simplifying and Optimizing the Code
+// Simplifying and Optimizing the Code:
 const func2 = (x) => {
   return x.filter((element) => element % 2 === 0);
 };
